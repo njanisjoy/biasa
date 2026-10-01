@@ -4,14 +4,188 @@
 /*Instagram : https://instagram.com/wafarifki_*/
 /*Website   : https://wafarifki.tk*/
 
-@media (min-width: 300px) and (max-width: 640px) {
-    .ml1 {
-        margin-top: 45%;
+@media (max-width: 640px) {
+    .kontener2 {
+        box-sizing: border-box;
+        display: flex;
+        min-height: 100vh;
+        min-height: 100svh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        padding: max(20px, env(safe-area-inset-top)) 18px max(20px, env(safe-area-inset-bottom));
     }
 
+    .kontener2 h1 {
+        margin: 0 0 20px;
+        font-size: 2rem;
+    }
+
+    .kontener2 .tombol {
+        min-height: 48px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        touch-action: manipulation;
+    }
+
+    .kontener {
+        box-sizing: border-box;
+        height: 100vh;
+        height: 100dvh;
+        padding: max(12px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom));
+    }
+
+    .dalemnya_kontener {
+        height: 100%;
+        border-radius: 14px;
+    }
+
+    .dalemnya_halaman {
+        box-sizing: border-box;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 16px;
+    }
+
+    .judul_halaman {
+        font-size: 1.25rem;
+        line-height: 60px;
+    }
+
+    .tombol_menu {
+        width: 50px;
+        height: 60px;
+        background-size: 34px;
+    }
+
+    section .gambar {
+        width: auto;
+        max-width: calc(100% - 32px);
+        max-height: 36svh;
+        object-fit: contain;
+    }
+
+    .halaman1 .isiucapan1,
+    .halaman2 .isiucapan2,
+    .halaman3 .isiucapan3,
+    section .isiucapan {
+        box-sizing: border-box;
+        width: min(88%, 420px);
+        margin: 8px auto 16px;
+        font-size: 0.95rem;
+        line-height: 1.55;
+    }
+
+    section .ucapan {
+        font-size: 1.25rem;
+    }
+
+    .buka_menu section.halaman1 {
+        -webkit-transform: translateY(60px);
+        transform: translateY(60px);
+    }
+
+    .buka_menu section.halaman2 {
+        -webkit-transform: translateY(120px);
+        transform: translateY(120px);
+    }
+
+    .buka_menu section.halaman3 {
+        -webkit-transform: translateY(180px);
+        transform: translateY(180px);
+    }
+
+    .buka_menu section.halaman4 {
+        -webkit-transform: translateY(240px);
+        transform: translateY(240px);
+    }
+
+    section.after {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+}
+
+@media (max-width: 1000px) and (max-height: 500px) and (orientation: landscape) {
     .kontener2 {
-        padding: 10px;
-        text-align: center;
-        margin-top: 60%;
+        display: flex;
+        min-height: 100vh;
+        min-height: 100svh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .kontener {
+        box-sizing: border-box;
+        height: 100vh;
+        height: 100dvh;
+        padding: 8px max(12px, env(safe-area-inset-left)) 8px max(12px, env(safe-area-inset-right));
+    }
+
+    .dalemnya_kontener {
+        height: 100%;
+    }
+
+    .dalemnya_halaman {
+        box-sizing: border-box;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .judul_halaman {
+        font-size: 1.1rem;
+        line-height: 52px;
+    }
+
+    .tombol_menu {
+        width: 46px;
+        height: 52px;
+        background-size: 30px;
+    }
+
+    section .gambar {
+        max-width: min(60vw, 280px);
+        max-height: 28svh;
+    }
+
+    .halaman1 .isiucapan1,
+    .halaman2 .isiucapan2,
+    .halaman3 .isiucapan3,
+    section .isiucapan {
+        width: min(80%, 560px);
+        margin: 4px auto 10px;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+
+    section .ucapan {
+        font-size: 1rem;
+    }
+
+    .buka_menu section.halaman1 {
+        -webkit-transform: translateY(52px);
+        transform: translateY(52px);
+    }
+
+    .buka_menu section.halaman2 {
+        -webkit-transform: translateY(104px);
+        transform: translateY(104px);
+    }
+
+    .buka_menu section.halaman3 {
+        -webkit-transform: translateY(156px);
+        transform: translateY(156px);
+    }
+
+    .buka_menu section.halaman4 {
+        -webkit-transform: translateY(208px);
+        transform: translateY(208px);
     }
 }
